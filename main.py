@@ -29,7 +29,7 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    if text == 'I':
+    if text == 'I' or 'F':
        text = input() 
     mismatch = find_mismatch(text)
     print(mismatch)
